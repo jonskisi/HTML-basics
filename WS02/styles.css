@@ -1,0 +1,51 @@
+.top-right {
+  float: right;
+  max-width: 25%;
+  height: auto;
+  margin: 0 100px 12px 15px;
+  border-radius: 6px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 95%;
+  padding: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #ebceda;
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 50%;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #ebceda;
+}
+
+.content-box {
+  background-color: #ffffff;
+  border: 0.5px solid #000000;
+  padding: 16px;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.content-box h3 {
+  margin-top: 0;
+}
+
