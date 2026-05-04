@@ -168,7 +168,7 @@ input[type="submit"]:hover {
       }
     }
 .responsive-image {
-      max-width: 70%;
+      max-width: 60%;
       height: auto;
     }
 .media-query-box {
