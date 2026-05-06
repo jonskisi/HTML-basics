@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">@Inspired by Jolanda</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Drink of the month</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Coctails
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Negroni</a></li>
+            <li><a class="dropdown-item" href="#">Rhubarb Spritz</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="banner">
+<p class="fst-italic">To make your life a tiny bit juicier.</p>
+</div>
+<h4>Good drinks, good vibes, and a little inspiration. Browse our collection of cocktail recipes and find your next favorite—whether it's for a party, a cozy night in, or just because.</h4>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./drink8.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Pineapple margarita</h5>
+        <p>A tropical twist on the classic, the Pineapple Margarita combines sweet, juicy pineapple with zesty lime and tequila. Perfect for sunny afternoons, beach vibes, or anyone who loves a refreshing, fruity cocktail with a bright kick.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./drink3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Rhubarb spritz</h5>
+        <p>Light, crisp, and slightly tart, the Rhubarb Spritz is ideal for spring and summer gatherings. With its delicate sweetness and bubbly finish, it’s perfect for brunches, garden parties, or anyone who prefers a fresh and elegant aperitif.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./drink2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Negroni</h5>
+        <p>Bold, bitter, and beautifully balanced, the Negroni is a timeless classic. Best suited for relaxed evenings or pre-dinner sipping, it’s the go-to choice for those who appreciate complex flavors and a sophisticated cocktail experience.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
