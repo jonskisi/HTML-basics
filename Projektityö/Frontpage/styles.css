@@ -1,5 +1,6 @@
+
 body {
-  font-family: 'Courier New'
+  font-family: 'Courier New';
 }
 
 .banner {
@@ -12,45 +13,92 @@ body {
 }
 
 .fst-italic {
-  font-size: 1.5em;
-  font-family: courier new;
+  font-size: 2.5em;
+  font-family: 'Courier New';
   position: absolute;
   bottom: 20px;
   left: 20px;
-  color: white;
+  color: #fff;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
-.carousel-caption h5 {
-  font-family: 'Courier New';
-  font-size: clamp(1.8rem, 4vw, 3.5rem);
-  color: white;
+.carousel-item {
+  height: 900px;
+  position: relative;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.45);
-  padding: 1rem;
-  border-radius: 0.75rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  right: auto;
+  bottom: auto;
+
+  background: rgba(0, 0, 0, 0.678);
+  padding: clamp(0.8rem, 3vw, 2rem);
+  border-radius: 0.5rem;
+
+  width: 90%;
+  max-width: 1200px;
+
+  text-align: center;
 }
 
 .carousel-caption h5 {
   font-family: 'Courier New';
   font-size: clamp(1.8rem, 4vw, 3.5rem);
   color: white;
+  margin-bottom: 0.5rem;
 }
 
 .carousel-caption p {
   font-family: 'Courier New';
-  font-size: clamp(1rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.4rem, 2.5vw, 2.4rem);
   color: white;
+  line-height: 1.3;
+
+  max-width: 45ch;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+@media (max-width: 900px) {
+  .carousel-caption {
+    padding: clamp(0.6rem, 3vw, 1.2rem);
+    max-width: 95%;
+  }
+
+  .carousel-item {
+    height: 750px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-caption {
+    padding: clamp(0.5rem, 3vw, 1rem);
+  }
+
+  .carousel-item {
+    height: 500px;
+  }
+}
+
 h4 {
   font-family: 'Courier New';
-  font-size: clamp(2rem, 3vw, 3rem);
+  font-size: clamp(1.65rem, 2vw, 2.5rem);
   line-height: 1.4;
-  color: #000000;
+  color: #000;
+
   padding: 2rem 1.5rem;
   margin: 2rem auto;
+
   max-width: 100%;
   background: rgba(255, 255, 255, 0.95);
   border-radius: 0.5rem;
