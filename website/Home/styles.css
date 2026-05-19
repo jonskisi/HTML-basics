@@ -102,7 +102,14 @@ body {
     height: 500px;
   }
 }
-
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(1);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) brightness(1.2);
+}
 h1 {
   font-family: 'Courier New';
   font-size: clamp(1.65rem, 2vw, 2.5rem);
