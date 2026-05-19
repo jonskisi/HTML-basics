@@ -102,10 +102,6 @@ body {
     height: 500px;
   }
 }
-.carousel-control-prev,
-.carousel-control-next {
-  filter: invert(1);
-}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(1) brightness(1.2);
